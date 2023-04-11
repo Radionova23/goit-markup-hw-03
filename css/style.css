@@ -69,6 +69,8 @@ background-color: var(--background-page-portfolio);
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 .link {
@@ -177,6 +179,15 @@ color: var(--color-address-item-hover);
     background-color:var(--background-color-first);
 }
 .first-title {
+    width: 496px;
+    height: 600px;
+    padding-top: 188px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 0;
+    margin-bottom: 0;
+
+
     font-size: 56px;
     line-height: 1.07;
     color: var(--color-first-title); 
@@ -185,12 +196,17 @@ color: var(--color-address-item-hover);
 }
 
 
+
+
 .section.list {
     list-style: none;
 }
 .first-btn {
     display: inline-block;
     padding: 16px 32px;
+    min-width: 169px;
+    margin-top: 48px;
+    
 
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -200,6 +216,7 @@ color: var(--color-address-item-hover);
     color: var(--color-first-btn);
     background-color: var(--background-color-first-btn) ;
     cursor: pointer;
+    text-align: center;
 }
 
 .first-btn:hover,
@@ -216,6 +233,9 @@ color: var(--color-address-item-hover);
 .button-portfolio {
     display: inline-block;
     padding: 12px 24px;
+    margin-right: 24px;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
    
 
     font-family: "Roboto", sans-serif;
@@ -226,6 +246,7 @@ color: var(--color-address-item-hover);
     cursor: pointer;
     color: var(--color-button-portfolio);
     background-color: var(--background-color-button-portfolio);
+    text-align: center;
     
 
 }
@@ -256,6 +277,7 @@ background-color:var(--background-color-button-portfolio-hover);
     background-color: var(--background-color-hero);
 }
 .section-title {
+
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-section-title);
@@ -266,6 +288,11 @@ background-color:var(--background-color-button-portfolio-hover);
 }
 
 .section-caption {
+    margin-top: 120px;
+    margin-bottom: 72px;
+    height: 40px;
+
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
