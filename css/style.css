@@ -35,13 +35,13 @@
 
 
 html {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 
@@ -75,12 +75,21 @@ background-color: var(--background-page-portfolio);
 .link.logo {
     text-decoration: none;
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
 
 
 
 .logo {
+   
+
     font-family: Raleway,sans-serif;
     font-size: 18px;
     line-height: 1.17;
@@ -103,10 +112,8 @@ span.span-footer {
 
 .site-nav {
     display: flex;
+    margin-left: 76px;
     
-}
-.site-nav li {
-    outline: 1px solid red;
 }
 
 
@@ -144,21 +151,36 @@ span.span-footer {
 }
 .address {
     display: flex;
+    margin-left: auto;
+    
    
 }
 .address .add:not(:last-child) {
     margin-right: 40px;
 }
 .address .link {
+    
+    
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-
 }
 
 
 
+
+
+ .main-nav {
+    display: flex;
+    align-items: center;
+    
+    
+ }
+
+
 .address-item {
+
+   
     
 
     font-style: normal;
@@ -271,12 +293,39 @@ background-color:var(--background-color-button-portfolio-hover);
 
 /*2-3 SECTION   3333333333333333333333333333333333333333*/
 
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1158px;
-    padding-left: 12px;
-    padding-right: 12px;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: teal;
+}
+.flex-element {
+    width: 360px;
+    background-color: red;
+    margin-right: 24px;
+    margin-bottom: 120px;
+}
+.flex-element:nth-child(3n) {
+    margin-right: 0px;
+
+}
+
+
+.flex-caption {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: teal;
+}
+
+.flex-hero {
+    width: 264px;
+    background-color: red;
+    margin-right: 24px;
+    margin-bottom: 120px;
+
+}
+
+.flex-hero:nth-child(4n) {
+    margin-right: 0px;
 }
 
 
@@ -333,7 +382,7 @@ background-color:var(--background-color-button-portfolio-hover);
     text-decoration: none;
 } 
 .picture {
-    margin-bottom: 120px;
+   
 }
 
 
