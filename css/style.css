@@ -69,6 +69,12 @@ background-color: var(--background-page-portfolio);
     margin: 0;
     list-style: none;
 }
+
+.page-header {
+
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .link {
     text-decoration: none;
 }
@@ -76,11 +82,16 @@ background-color: var(--background-page-portfolio);
     text-decoration: none;
 }
 .container {
+    
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.container-header {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -88,6 +99,7 @@ background-color: var(--background-page-portfolio);
 
 
 .logo {
+    margin-right: 76px;
    
 
     font-family: Raleway,sans-serif;
@@ -201,10 +213,11 @@ color: var(--color-address-item-hover);
 .first {
     background-color:var(--background-color-first);
     text-align: center;
+    padding: 188px 0;
    
 }
 .first-title {
-    padding-top: 188px; 
+    max-width: 496px;
     margin-top: 0;
     margin-bottom: 48px;
 
@@ -223,10 +236,17 @@ color: var(--color-address-item-hover);
     list-style: none;
 }
 .first-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
     display: inline-block;
     padding: 16px 32px;
     min-width: 169px;
     margin-bottom: 188px;
+    cursor: pointer;
+
     
     
 
@@ -236,7 +256,7 @@ color: var(--color-address-item-hover);
     font-size: 16px;
     line-height: 1.5;
     color: var(--color-first-btn);
-    background-color: var(--background-color-first-btn) ;
+    background-color: var(--background-color-first-btn);
     cursor: pointer;
     text-align: center;
 }
@@ -331,17 +351,18 @@ background-color:var(--background-color-button-portfolio-hover);
     margin-right: 0px;
 }
 
+.no-padding {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 .section {
+    padding: 120px 0;
    
     background-color: var(--background-color-section);
    
     
    
-}
-.section.no-padding {
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 .list-item {
@@ -353,7 +374,8 @@ background-color:var(--background-color-button-portfolio-hover);
     
 }
 .img {
-    margin-bottom: 34px;
+    margin-bottom: 34px; 
+    display: block;
 }
 
 .section-title {
