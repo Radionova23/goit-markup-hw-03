@@ -64,11 +64,15 @@ color:#2E2F42;
 background-color: var(--background-page-portfolio);
 }
 
-.list {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
+
+
+
+
+
+
+
+
+    
 
 .page-header {
 
@@ -316,29 +320,7 @@ background-color:var(--background-color-button-portfolio-hover);
 
 
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-   
-   
-}
-.flex-element {
-    display: flex;
-    margin-right: 24px;
-    width:  calc((100% - 48px) / 3);
-    
-}
-.flex-element:nth-child(3n) {
-    margin-right: 0px;
 
-}
-
-
-.flex-caption {
-    display: flex;
-    margin-right: 24px;
-    
-}
 
 
 
@@ -367,10 +349,7 @@ background-color:var(--background-color-button-portfolio-hover);
 
 
 
-.hero {
-    background-color: var(--background-color-hero);
-    
-}
+
 .img {
     margin-bottom: 34px; 
     display: block;
@@ -393,7 +372,7 @@ background-color:var(--background-color-button-portfolio-hover);
 }
 
 .section-caption {
-    margin-top: 0;
+ 
     margin-bottom: 72px;
     
 
@@ -412,8 +391,36 @@ background-color:var(--background-color-button-portfolio-hover);
     text-decoration: none;
 } 
 .picture {
-   
+    display: flex;
+    margin-right: 24px;
+    width: calc((100% - 48px) / 3);
 }
+
+    
+    
+    
+.picture:nth-child(3n) {
+     margin-right: 0px;
+    
+}
+   
+
+
+.list {
+    display: flex;
+    margin-right: 24px;
+}
+
+.hero {
+    width: calc((100% - 72px) / 4);
+    margin-right: 0;
+}
+.hero {
+    background-color: var(--background-color-hero);
+
+
+}
+
 .flex-portfolio {
     display: flex;
     flex-wrap: wrap;
@@ -469,7 +476,25 @@ background-color:var(--background-color-button-portfolio-hover);
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px;
 }
+.section-title {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--color-section-title);
+    font-weight: 500;
+    letter-spacing: 0.02em;
 
+}
+.section-text-flex {
+    text-align: center;
+   
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-section-text-portfolio-text);
+    letter-spacing: 0.02em;
+}
 
 
 /*footer   555555555555555555555555555555555555555555555555555*/
