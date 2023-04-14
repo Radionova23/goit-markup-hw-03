@@ -336,20 +336,11 @@ background-color:var(--background-color-button-portfolio-hover);
 
 .flex-caption {
     display: flex;
-    flex-wrap: wrap;
+    margin-right: 24px;
     
 }
 
-.flex-hero {
-    width: calc((100% - 72px) / 4);
-    margin-right: 24px;
-   
 
-}
-
-.flex-hero:nth-child(4n) {
-    margin-right: 0px;
-}
 
 
 
@@ -362,9 +353,19 @@ background-color:var(--background-color-button-portfolio-hover);
    
 }
 
-.list-item {
 
-}
+.list-item {
+    
+    width: calc((100% - 72px) / 4);
+    margin-right: 24px;
+    
+    }
+    
+.list-item:nth-child(4n) {
+    margin-right: 0px;
+        }
+
+
 
 .hero {
     background-color: var(--background-color-hero);
@@ -375,10 +376,10 @@ background-color:var(--background-color-button-portfolio-hover);
     display: block;
 }
 
-.section-title {
-    margin-top: 0;
+.section-title-flex {
+   
     margin-bottom: 8px;
-    text-align: center;
+    
    
 
 
