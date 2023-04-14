@@ -278,14 +278,21 @@ span.span-footer {
    
     background-color: var(--background-color-section);
    
+}
+
+.list {
+    display: flex;
     
-   
+}
+.list-item {
+    margin-right: 24px;
+    margin-right: 0;
 }
 
 
-.list-item {
-    
+.list {
     width: calc((100% - 72px) / 4);
+    
     
     
     }
@@ -301,7 +308,9 @@ span.span-footer {
     margin-bottom: 34px; 
     display: block;
 }
-
+ .flex-caption {
+    width: calc((100% - 48px) / 3);
+ }
 .section-title-flex {
    
     margin-bottom: 8px;
@@ -351,10 +360,7 @@ span.span-footer {
    
 
 
-.list {
-    display: flex;
-    margin-right: 24px;
-}
+
 
 .hero {
     width: calc((100% - 48px) / 3);
