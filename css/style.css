@@ -241,10 +241,6 @@ color: var(--color-address-item-hover);
     height: 56px;
     border-radius: 4px;
     border: none;
-    display: inline-block;
-    padding: 16px 32px;
-    min-width: 169px;
-    margin-bottom: 188px;
     cursor: pointer;
 
     
@@ -323,10 +319,12 @@ background-color:var(--background-color-button-portfolio-hover);
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 24px;
+   
    
 }
 .flex-element {
+    display: flex;
+    margin-right: 24px;
     width:  calc((100% - 48px) / 3);
     
 }
@@ -339,12 +337,12 @@ background-color:var(--background-color-button-portfolio-hover);
 .flex-caption {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 24px;
-   
+    
 }
 
 .flex-hero {
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
    
 
 }
@@ -353,10 +351,7 @@ background-color:var(--background-color-button-portfolio-hover);
     margin-right: 0px;
 }
 
-.no-padding {
-    padding-top: 0;
-    padding-bottom: 0;
-}
+
 
 .section {
     padding: 120px 0;
@@ -412,7 +407,7 @@ background-color:var(--background-color-button-portfolio-hover);
 
 }
 
-.img link {
+.imgs link {
     text-decoration: none;
 } 
 .picture {
