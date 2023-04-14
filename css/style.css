@@ -74,10 +74,7 @@ background-color: var(--background-page-portfolio);
 
     
 
-.page-header {
 
-    border-bottom: 1px solid #e7e9fc;
-}
 
 .link {
     text-decoration: none;
@@ -194,21 +191,6 @@ span.span-footer {
  }
 
 
-.address-item {
-
-   
-    
-
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--color-address-item-normal);
-    letter-spacing: 0.02em;
-}
-.address-item.link:hover,
-.address-item.link:focus {
-color: var(--color-address-item-hover);
-}
 
 /*main*/
 
@@ -267,42 +249,7 @@ color: var(--color-address-item-hover);
 }
 
 
-.button {
-    display: flex; 
-    margin-bottom: 72px;
-   
-}
 
-
-.button-portfolio {
-    display: inline-block;
-    padding: 12px 24px;
-    margin-right: 24px;
-    border-radius: 4px;
-    border: 1px solid #E7E9FC;
-   
-
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-    color: var(--color-button-portfolio);
-    background-color: var(--background-color-button-portfolio);
-    text-align: center;
-    
-
-}
-.button-portfolio:hover,
-.button-portfolio:focus {
-    color:var(--color-button-portfolio-hover);
-}
-.button-portfolio:hover,
-.button-portfolio:focus {
-background-color:var(--background-color-button-portfolio-hover);
-
-}
 
 
 .first-btn:hover,
@@ -421,28 +368,7 @@ background-color:var(--background-color-button-portfolio-hover);
 
 }
 
-.flex-portfolio {
-    display: flex;
-    flex-wrap: wrap;
-}
- .element-portfolio {
 
-     width: calc((100%-48px) / 3);
- }
- .element-portfolio:nth-child(3n) {
-
-     margin-right: 0px;
- }
-
-
-.portfolio-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--color-portfolio-title);
-
-}
 
 .section-text {
     margin-top: 0;
@@ -497,7 +423,7 @@ background-color:var(--background-color-button-portfolio-hover);
 }
 
 
-/*footer   555555555555555555555555555555555555555555555555555*/
+/*FOOTERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR*/
 
 .footer {
     background-color:var(--background-color-footer);
@@ -522,4 +448,117 @@ background-color:var(--background-color-button-portfolio-hover);
 .logo {
     display: inline-block;
     margin-bottom: 16px;
+}
+
+
+/*PORTFOLIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+.page-header {
+
+    border-bottom: 1px solid #e7e9fc;
+}
+
+
+
+.address-item {
+
+
+
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-address-item-normal);
+    letter-spacing: 0.02em;
+}
+
+.address-item.link:hover,
+.address-item.link:focus {
+    color: var(--color-address-item-hover);
+}
+  
+
+.section-flex {
+    padding: 96px 0 120px;
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-right: 24px;
+    margin-bottom: 72px;
+
+}
+
+.button {
+    width: calc((100%-48px) / 3);
+    }
+.button:nth-child(3n) {
+    margin-right: 0;
+}
+
+.button-flex {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+
+}
+
+
+.button-portfolio {
+   
+
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--color-button-portfolio);
+    background-color: var(--background-color-button-portfolio);
+    text-align: center;
+
+
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    color: var(--color-button-portfolio-hover);
+    border: 1px solid transparent;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+    background-color: var(--background-color-button-portfolio-hover);
+    border: 1px solid transparent;
+
+}
+
+
+
+.flex-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element-portfolio {
+
+    width: calc((100%-48px) / 3);
+}
+
+.element-portfolio:nth-child(3n) {
+
+    margin-right: 0px;
+}
+
+
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--color-portfolio-title);
+
 }
