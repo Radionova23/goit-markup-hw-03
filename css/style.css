@@ -250,7 +250,7 @@ span {
 
 
 
-/*2 SECTION   3333333333333333333333333333333333333333*/
+/*2 SECTION   22222222222222222222222222222222222222222222222222222222222222*/
 
 
 
@@ -275,7 +275,7 @@ span {
 
 .flex-caption {
     display: flex;
-    margin-right: 24px;
+    gap: 24px;
    
     
 }
@@ -286,7 +286,7 @@ span {
         }
 
 
- .flex-caption {
+ .list-item {
     width: calc((100% - 72px) / 4);
  }
 .section-title-flex {
@@ -304,11 +304,11 @@ span {
 /*3333333333333333333333333333333333333333333333333*/
 
 .picture {
-    display: flex;
     margin-right: 24px;
+    width: calc((100% - 48px) / 3);
 }
 .flex-container {
-    width: calc((100% - 48px) / 3);
+    display: flex;
 
 }
     
@@ -323,15 +323,16 @@ span {
 
 
 
-.flex-caption-next {
-    width: calc((100% - 72px) / 4);
-    }
+.flex-caption-next { 
+    display: flex;
+}
 
 .hero:nth-child(4n) {
-   margin-right: 0px;
-        
+    margin-right: 0px;
+    
 }
 .hero {
+    width: calc((100% - 72px) / 4);
     background-color: var(--background-color-hero);
      margin-right: 24px;
 
