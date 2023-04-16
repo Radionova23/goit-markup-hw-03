@@ -423,6 +423,9 @@ span.span-footer {
 
 
 /*PORTFOLIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+.imgs {
+    display: block;
+}
 .portfolio-text {
     font-size: 16px;
     line-height: 1.5;
