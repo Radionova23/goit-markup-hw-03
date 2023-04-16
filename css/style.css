@@ -274,21 +274,23 @@ span {
 }
 
 .flex-caption {
-    display: flex;
-    width: calc((100% - 72px) / 4);
-    gap: 24px;
    
+    display: flex;
+    gap: 24px;
+    
     
 }
 
-    
+
 .list-item:nth-child(4n) {
     margin-right: 0px;
-        }
+}
 
 
- .list-item {
-   
+.list-item {
+    width: calc((100% - 72px) / 4);
+  
+  
  }
 .section-title-flex {
    margin-bottom: 8px;
