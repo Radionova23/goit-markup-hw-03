@@ -277,6 +277,7 @@ span {
    
     display: flex;
     gap: 24px;
+   
     
     
 }
@@ -287,9 +288,12 @@ span {
 }
 
 
+
+
+
 .list-item {
+    
     width: calc((100% - 72px) / 4);
-  
   
  }
 .section-title-flex {
@@ -498,7 +502,7 @@ span.span-footer {
       width: calc((100% - 48px) / 3);
 }
 
-.li {
+.lis {
     margin-bottom: 48px;
 
 }  
