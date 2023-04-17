@@ -295,7 +295,7 @@ span {
 .flex-caption {
    
    display: flex;
-   margin-right: 24px;
+  
    
 }
 
@@ -307,6 +307,7 @@ span {
 .list-item {
     
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
     
   
  }
@@ -365,7 +366,7 @@ span {
 
 .next {
     background-color: var(--background-color-next); 
-    padding: 120px 0;
+   
 }
 
 .flex-next {
