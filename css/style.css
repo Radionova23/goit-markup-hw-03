@@ -295,7 +295,7 @@ span {
 .flex-caption {
    
    display: flex;
-    gap: 24px;
+   
    
 }
 
@@ -304,9 +304,10 @@ span {
     margin-right: 0px;
 }
 
-.basis {
+.list-item {
     
     flex-basis: calc((100% - 72px) / 4);
+    margin-right: 24px;
   
  }
 .section-title-flex {
