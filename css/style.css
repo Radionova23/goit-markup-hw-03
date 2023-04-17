@@ -295,7 +295,7 @@ span {
 .flex-caption {
    
    display: flex;
-   
+margin-right: 24px;
    
 }
 
