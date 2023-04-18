@@ -502,17 +502,19 @@ span.span-footer {
 
     flex-wrap: wrap;
     display: flex;
-    column-gap: 24px;
+    
+    
     flex-wrap: wrap;
     row-gap: 48px;
+    column-gap: 24px;
 } 
 
 
 .element-portfolio {
-   flex-basis: calc((100% - 48px) / 3);
+   flex-basis:calc((100% - 48px) / 3);
      
 }
-.element-portfolio :nth-child(3n) {
+.element-portfolio:nth-child(3n) {
     margin-right: 0;
 }
 
