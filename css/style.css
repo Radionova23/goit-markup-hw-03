@@ -288,6 +288,7 @@ span {
 }
 
 .section {
+    padding-top: 120px;
     padding-bottom: 120px;
 
    
@@ -329,6 +330,10 @@ span {
 
 
 /*3333333333333333333333333333333333333333333333333*/
+.section-three {
+    padding-top: 0;
+    padding-bottom: 120px;
+}
 .section-caption {
     margin-bottom: 72px;
     margin-top: 0;
@@ -439,7 +444,7 @@ span.span-footer {
     font-size: 16px;
     line-height: 1.5;
     color:var(--color-footer-text);
-    margin-bottom: 100px;
+   
 }
 
 
