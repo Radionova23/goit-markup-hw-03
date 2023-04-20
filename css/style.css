@@ -93,8 +93,7 @@ background-color: var(--background-page-portfolio);
     display: flex;
     align-items: center;
     
-    margin-right:0;
-    padding: 0;
+  
 }
 
 .logo {
@@ -344,16 +343,17 @@ span {
 
 }
 
+.flex-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+
 .picture {
     margin-right: 24px;
     flex-basis: calc((100% - 48px) / 3);
 }
-.flex-container {
-    margin: 0;
-    padding: 0;
-
-}
-    
 .picture:nth-child(3n) {
      margin-right: 0px;
     
@@ -366,7 +366,7 @@ span {
 
 
 .flex-caption-next { 
-    
+    display: flex;
  
     margin: 0;
     padding: 0;
