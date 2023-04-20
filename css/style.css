@@ -77,10 +77,7 @@ background-color: var(--background-page-portfolio);
     text-decoration: none;
 }
 
-.container-first {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 .container {
@@ -91,10 +88,12 @@ background-color: var(--background-page-portfolio);
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .container-header {
     display: flex;
     align-items: center;
-    margin:0;
+    
+    margin-right:0;
     padding: 0;
 }
 
@@ -123,13 +122,15 @@ background-color: var(--background-page-portfolio);
 span {
     color: var(--color-span-black);
 }
-
+.site-nav {
+    margin: 0;
+    padding: 0;
+}
 .site-nav {
     display: flex;
     margin-right: 76px;
     
 }
-
 
 
 .site-nav .item:not(:last-child) {
@@ -158,7 +159,11 @@ span {
     color: var(--color-site-nav-hover);
 }
 
-/*addres*/
+/*addres*/ 
+.address {
+    margin: 0;
+    padding: 0;
+}
 
 .contact {
     font-style: normal;
@@ -196,12 +201,8 @@ span {
 /*main*/
 
 /*first-section 111111111111111111111111111111111111111111111*/
-/*
-.h1 {
-    padding: 0;
-    margin: 0;
-}
-*/
+
+
 .first {
     background-color:var(--background-color-first);
     text-align: center;
@@ -275,17 +276,6 @@ span {
 
 
 
-.section-caption {
-     margin-bottom: 72px;
-
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--color-section-caption);
-
-}
 
 .section-text {
     margin-top: 0;
@@ -308,9 +298,9 @@ span {
 }
 
 .flex-caption {
-   
+   margin: 0;
    display: flex;
-  padding: 0;
+   padding: 0;
   
    
 }
@@ -328,6 +318,7 @@ span {
   
  }
 .section-title-flex {
+   margin-top: 0;
    margin-bottom: 8px;
     
     font-size: 20px;
@@ -340,13 +331,25 @@ span {
 
 
 /*3333333333333333333333333333333333333333333333333*/
+.section-caption {
+    margin-bottom: 72px;
+    margin-top: 0;
+
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-section-caption);
+
+}
 
 .picture {
     margin-right: 24px;
     flex-basis: calc((100% - 48px) / 3);
 }
 .flex-container {
-    display: flex;
+    margin: 0;
     padding: 0;
 
 }
@@ -363,7 +366,9 @@ span {
 
 
 .flex-caption-next { 
-    display: flex;
+    
+ 
+    margin: 0;
     padding: 0;
 }
 
@@ -448,6 +453,14 @@ span.span-footer {
 
 
 /*PORTFOLIOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO*/
+.button {
+    margin: 0;
+    padding: 0;
+}
+.flex-portfolio {
+    margin: 0;
+    padding: 0;
+}
 .imgs {
     display: block;
 }
