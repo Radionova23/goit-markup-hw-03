@@ -78,8 +78,6 @@ background-color: var(--background-page-portfolio);
 }
 
 
-
-
 .container {
     
     margin-left: auto;
@@ -96,8 +94,8 @@ background-color: var(--background-page-portfolio);
   
 }
 
-.logo {
-    
+.logo-header {
+   
     margin-right: 76px;
    
 
@@ -127,7 +125,6 @@ span {
 }
 .site-nav {
     display: flex;
-    margin-right: 76px;
     
 }
 
@@ -169,8 +166,8 @@ span {
 }
 .address {
     display: flex;
-    margin-left: 156px;
-    
+    margin-left: 332px;
+
    
 }
 .address .add:not(:last-child) {
@@ -278,6 +275,7 @@ span {
 
 .section-text {
     margin-top: 0;
+    margin-bottom: 0;
     text-align: justify;
 
 
@@ -290,7 +288,8 @@ span {
 }
 
 .section {
-    padding: 120px 0;
+    padding-bottom: 120px;
+
    
     background-color: var(--background-color-section);
    
@@ -397,6 +396,7 @@ span {
    
 }
 .section-title {
+    margin-top: 0;
     text-align: center;
     margin-bottom: 8px;
     font-size: 20px;
@@ -407,6 +407,8 @@ span {
 
 }
 .section-text-flex {
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
    
     font-style: Regular;
@@ -424,13 +426,15 @@ span.span-footer {
 
 .footer {
     background-color:var(--background-color-footer);
-    padding: 100px 0;
+   padding-top: 100px;
+   padding-bottom: 100px;
     
 
 }
 
-
 .footer-text {
+    margin-top: 0;
+    margin-bottom: 0;
     max-width: 264px;
     font-size: 16px;
     line-height: 1.5;
@@ -444,11 +448,11 @@ span.span-footer {
 }
 
 .span-footer {
-    margin-bottom: 16px;
+    margin-bottom:0;
 }
 .logo {
     display: inline-block;
-    margin-bottom: 16px;
+   margin-bottom: 16px;
 }
 
 
@@ -465,6 +469,8 @@ span.span-footer {
     display: block;
 }
 .portfolio-text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -505,7 +511,7 @@ span.span-footer {
 
 .button-portfolio {
     
-    margin-right: 24px;
+    
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px;
@@ -557,11 +563,14 @@ width: calc((100% - 48px) / 3);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+   /*margin-bottom: 8px;*/
 }
 
 
-
+.portfolio-title {
+   margin-top: 0;
+   
+}
 .portfolio-title {
     margin-bottom: 8px;
     font-weight: 500;
